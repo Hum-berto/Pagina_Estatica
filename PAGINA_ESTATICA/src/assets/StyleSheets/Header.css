@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Header-prod {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 20em;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-name{
+    position: relative;
+    top: 2em;
+    color: aliceblue;
+}
+
+.first {
+    background-color: bisque;
+    height: 40em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box-products {
+    background-color: rgb(178, 178, 178);
+    height: 500px;
+    width: 1400px;
+    border-radius: 3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn { 
+    position: absolute;         
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px; 
+    height: 36px; 
+    width:36px;
+    top: 1em;
+    left: 1em;
+}
+#lines:before { 
+    border-bottom: 17px double rgb(255, 255, 255);
+    border-top: 6px solid rgb(255, 255, 255);    
+    content:"";
+    height: 5px; 
+    position: absolute; 
+    right:3px;  
+    top: 4px; 
+    width:30px; 
+}
+
+#Buscador {
+    position: absolute;
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    width: 400px;
+    border: transparent;
+    background-color: aliceblue;
+    border-bottom: solid 1px rgb(255, 255, 255);
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    top: 2em;
+    left: 70em;
+    border-radius: 3em;
+  }
